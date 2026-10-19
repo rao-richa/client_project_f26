@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Engaged Learning Resources | UMSI</title>
+    <title>Home | Engaged Learning Resources | UMSI</title>
+    <link rel ="stylesheet" href="css/html5reset.css">
+    <link rel ="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -13,16 +15,16 @@
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="preparing_your_experience.html">Preparing for Your Experience</a></li>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href = "preparing_your_experience.html">Preparing for Your Experience</a></li>
                 <li><a href="starting_the_experience.html">Starting Your Experience</a></li>
-                <li><a href="ending_the_experience.html">Ending The Experience</a></li>
+                <li><a href="ending_the_experience.html">Ending Your Experience</a></li>
             </ul>
         </nav>
-    <h1>Welcome to the UMSI Engaged Learning Office</h1>
+    <h1>Home: UMSI Engaged Learning Resources</h1>
 
     </header>
-    <main id="main">
+    <main id="main" tabindex="-1">
 
    <section>
     <h2>About the Engaged Learning Office</h2>
@@ -36,7 +38,14 @@
        The UMSI Engaged Learning Office connects students with opportunities to apply classroom knowledge to real challenges. Use this site to prepare for your experience, manage your work, and reflect on what you learned.
       </p>
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/81ZO9RfIJEQ?si=tBp82YWZMl1u7CVS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/81ZO9RfIJEQ?si=tBp82YWZMl1u7CVS" 
+      title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen></iframe>
          <!-- Note: this iframe might cause an Axe ARIA error - that's not on you that's on YouTube! -->
     </section>
 
@@ -52,7 +61,7 @@
         <li><strong>Follow a clear process:</strong> Move from preparation and project launch through active work, reflection, and responsible closeout.</li>
         <li><strong>Find practical support:</strong> Access relevant templates, checklists, examples, and how-to guidance for common project needs.</li>
         <li><strong>Build professional skills:</strong> Strengthen your communication, teamwork, project management, and ethical decision-making.</li>
-        <li><strong>Turn experience into evidence:</strong> Identify what you learned and communicate your impact in resumes,portfolios, and interviews.</li>
+        <li><strong>Turn experience into evidence:</strong> Identify what you learned and communicate your impact in resumes, portfolios, and interviews.</li>
     </ul>
 </section>
 
@@ -81,36 +90,39 @@
    <section>
     <h2>Featured Programs</h2>
     <p>Explore opportunities to collaborate with organizations, communities, student teams, and partners in Michigan and beyond.</p>
-    <article>
-    <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12810">AI Clinic Project Experience</a></h3>
-    <p>Work with a team on an applied artificial intelligence project for a partner organization.</p>
-    </article>
+    
+    <div class="resource-grid">
+      <article>
+        <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12810">AI Clinic Project Experience</a></h3>
+        <p>Work with a team on an applied artificial intelligence project for a partner organization.</p>
+      </article>
+      
+      <article>
+        <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12556">A2 Data Dive</a></h3>
+        <p>Use information and data skills to help address challenges identified by community organizations.</p>
+      </article>
 
-    <article>
-    <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12556">A2 Data Dive</a></h3>
-    <p>Use information and data skills to help address challenges identified by community organizations.</p>
-    </article>
+      <article>
+        <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=11297">Alternative Fall Break</a></h3>
+        <p>Participate in a community-engaged learning experience during the University’s fall break.</p>
+      </article>
 
-     <article>
-      <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=11297">Alternative Fall Break</a></h3>
-      <p>Participate in a community-engaged learning experience during the University’s fall break.</p>
-    </article>
+      <article>
+        <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=10621">Alternative Spring Break (ASB)</a></h3>
+         <p>Collaborate with communities and nonprofit organizations on information-related projects during spring break.</p>
+      </article>
 
-    <article>
-      <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=10621">Alternative Spring Break (ASB)</a></h3>
-       <p>Collaborate with communities and nonprofit organizations on information-related projects during spring break.</p>
-    </article>
+      <article>
+        <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12294">Student Organization Engaged Learning Leaders</a></h3>
+         <p>Develop leadership and project-management skills while supporting engaged learning through a UMSI student organization.</p>
+      </article>
 
-    <article>
-      <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12294">Student Organization Engaged Learning Leaders</a></h3>
-       <p>Develop leadership and project-management skills while supporting engaged learning through a UMSI student organization.</p>
-    </article>
-
-    <article>
+      <article>
       <h3><a href="https://www.si.umich.edu/student-life/study-abroad">Study Abroad</a></h3>
       <p>Build intercultural awareness and apply your learning in an international setting. </p>
-    </article>
-   </section>
+      </article>
+   </div>
+  </section>
 
   <aside>
     <h2>Stay Connected with ELO</h2>
