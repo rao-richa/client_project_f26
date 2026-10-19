@@ -202,7 +202,7 @@ footer address{
 
 /* AI Assistance: U-M GPT
 Prompt: "How can I improve accessibility in CSS for users who prefer reduced motion?"
-Used the guidance to add a prefers-reduced-motion media query.
+Used the guidance to add a prefers-reduced-motion media query and accordingly was modified.
 */
 
 @media (prefers-reduced-motion: reduce) {
@@ -213,10 +213,8 @@ Used the guidance to add a prefers-reduced-motion media query.
   *::before,
   *::after {
     animation-duration: 0.01ms !important;
-    /* animation-delay: 0ms !important; */
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-    /* transition-delay: 0ms !important; */
     scroll-behavior: auto !important;
   }
 }
